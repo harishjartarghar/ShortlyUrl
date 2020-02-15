@@ -1,0 +1,78 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background-image: url(https://studyukstem.files.wordpress.com/2018/03/laptop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.w3-bar-item.w3-button{
+    font-family: 'Lemonada', cursive;
+    font-size: large;
+    padding-left: 20px;
+    
+    
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform:translate(-50%,-50%);
+    padding-left: 72px;
+}
+
+.success{
+    position: relative;
+    top: 70%;
+    left: 50%;
+    width: 600px;
+    transform:translate(-50%,-50%);
+    padding-left: 72px;
+    color: #fff;
+}
+
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="url"]
+{
+    background: #fff;
+    width:400px ;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+input[type="submit"]
+{   left: -5px;
+    position: relative;
+    border-radius :0 25px 25px 0;
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color:#fff;
+
+}
+
+input[type="submit"]:hover
+{
+    background: #ff5722;
+}
+
+.w3-bar-item.w3-button.w3-hide-small.w3-right
+{
+    margin-top: 15px;
+}

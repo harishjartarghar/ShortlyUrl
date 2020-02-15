@@ -1,0 +1,16 @@
+<%- include("partials/header")%>
+
+<div class="box">
+  <form action="/api/url/shorten" method="POST">
+    <input type="url" name="URL" id="" placeholder="Enter The Url To Shorten!">
+    <input type="submit" value="Shorten">
+  </form>
+</div>
+
+<div class="success">
+    <p>Your shorten link is</p>
+<a href="http://localhost:3000/<%=urlcode%>">http://localhost:3000/<%=urlcode%></a>
+</div>
+
+
+<%-include("partials/footer")%>
